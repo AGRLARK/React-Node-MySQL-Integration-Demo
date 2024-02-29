@@ -1,0 +1,54 @@
+# Project Name
+
+React-Node-MySQL Integration Demo
+
+This project demonstrates the integration of React.js frontend with Node.js backend using Express.js and MySQL database. It utilizes Vite.js for frontend development.
+
+## Getting Started
+
+To get started with this project, follow the steps below:
+
+### Backend
+
+1. **Install Dependencies**: Navigate to the `backend` directory and run `npm install` to install the necessary dependencies.
+
+2. **Database Configuration**: Ensure you have MySQL installed and running on your system. Update the database connection details in `server.js` to match your MySQL configuration.
+
+3. **Start the Server**: Run `npm start` to start the backend server using Nodemon. This will start the server on port 4000 by default.
+
+### Frontend
+
+1. **Install Dependencies**: Navigate to the `frontend` directory and run `npm install` to install the necessary dependencies.
+
+2. **Start the Development Server**: Run `npm start` to start the Vite.js development server for the frontend. This will automatically open your default web browser with the application running on port 3000.
+
+## Project Structure
+
+The project is structured as follows:
+
+- **Backend**:
+
+  - `server.js`: Entry point for the backend server. Defines routes and handles database connections.
+  - `package.json`: Contains project metadata and dependencies.
+
+- **Frontend**:
+  - `App.js`: Main component for the React.js frontend. Fetches data from the backend and renders it in a table format.
+  - `package.json`: Contains project metadata and dependencies.
+
+## Technologies Used
+
+- **Backend**:
+
+  - Express.js: Web framework for Node.js used to build the RESTful API.
+  - MySQL: Relational database management system for data storage.
+  - Nodemon: Utility that automatically restarts the server when changes are detected during development.
+  - Cors: Middleware for enabling Cross-Origin Resource Sharing.
+
+- **Frontend**:
+  - React.js: JavaScript library for building user interfaces.
+  - Vite.js: Frontend build tool that provides fast, optimized development server and build setup.
+  - CSS: Used for styling the frontend components.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
