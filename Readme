@@ -1,6 +1,4 @@
-# Project Name
-
-React-Node-MySQL Integration Demo
+# Project Name:- React-Node-MySQL Integration Demo
 
 This project demonstrates the integration of React.js frontend with Node.js backend using Express.js and MySQL database. It utilizes Vite.js for frontend development.
 
